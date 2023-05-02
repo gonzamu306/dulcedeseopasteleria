@@ -1,0 +1,236 @@
+/* ACA ABAJO EL RESETEO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TIPOGRAFIA DE TODA LA PAGINA */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #f2ece9;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+header .flex-container .container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header .flex-container .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .flex-container .container .row .colorlink {
+  color: #f2aa52;
+  font-weight: 700;
+}
+
+header .flex-container .container .row .colorlink .nav__item {
+  margin-left: 0;
+  display: flex;
+  align-items: end;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .card-title {
+  color: #f2aa52;
+  font-weight: 900;
+}
+
+.container .card-title .card-text .imagencard {
+  display: flex;
+  justify-content: center;
+}
+
+#section_principal {
+  background-color: #f2ece9;
+  padding-top: 5rem;
+}
+
+#section_principal .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section_principal .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section_principal .container .row .titulo1 {
+  color: #3fbfbf;
+  font-size: 200%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 900;
+}
+
+#section_principal .container .row .titulo1 .texto .img_principal .imagencard {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .titulo2 {
+  color: #3fbfbf;
+  font-size: 250%;
+  text-align: center;
+  padding: 1rem;
+  margin: auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .ofertasynovedades {
+  color: #3fbfbf;
+  font-size: 250%;
+  text-align: center;
+  padding: 1rem;
+  margin: auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.container .titulo2 .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto_indu {
+  color: #f2aa52;
+  padding: 2rem;
+  font-size: 150%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .row .redes {
+  text-align: center;
+  font-size: 400%;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.mapa {
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#section_secundaria {
+  background-color: #c4e3e3;
+  color: black;
+  text-align: center;
+  padding-top: 1rem;
+  margin: 0rem;
+}
+
+#section_secundaria .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#section_secundaria .container .footer {
+  padding-top: 5rem;
+  margin: 1rem;
+}
+
+.container .textoofertasynovedades {
+  text-align: center;
+  color: #f2aa52;
+}
+
+.textoprincipaldebienvenida {
+  text-align: center;
+  color: #f2aa52;
+}
+
+.container .botonenviar {
+  text-align: center;
+  padding-top: 1rem;
+  margin: 1rem;
+}
+
+.container .textoparamail {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.marcaregistrada {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.carrusel {
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+}
+
+.formulariodecontacto {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.titulo2 {
+  font-weight: 900;
+}
+
+.redes {
+  color: #f2aa52;
+}
