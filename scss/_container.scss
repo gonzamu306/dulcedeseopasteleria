@@ -1,0 +1,236 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+  .card-title {
+    color: #f2aa52;
+    font-weight: 900;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagencard {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#section_principal {
+  background-color: #f2ece9;
+  padding-top: 5rem;
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titulo1 {
+    color: #3fbfbf;
+    font-size: 200%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 900;
+  }
+
+  .texto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .img_principal {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagencard {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+  .titulo2 {
+    color: #3fbfbf;
+    font-size: 250%;
+    text-align: center;
+    padding: 1rem;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ofertasynovedades {
+    color: #3fbfbf;
+    font-size: 250%;
+    text-align: center;
+    padding: 1rem;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .textoofertasynovedades {
+    text-align: center;
+    color: #f2aa52;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .textoparamail {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.texto_indu {
+  color: #f2aa52;
+  padding: 2rem;
+  font-size: 150%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+  .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .redes {
+    text-align: center;
+    font-size: 400%;
+    padding-top: 1rem;
+    margin: 0;
+  }
+}
+
+.mapa {
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#section_secundaria {
+  background-color: #c4e3e3;
+  color: black;
+  text-align: center;
+  padding-top: 1rem;
+  margin: 0rem;
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding-top: 5rem;
+    margin: 1rem;
+  }
+}
+
+.textoprincipaldebienvenida {
+  text-align: center;
+  color: #f2aa52;
+}
+
+.container .botonenviar {
+  text-align: center;
+  padding-top: 1rem;
+  margin: 1rem;
+
+  .textoparamail {
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
+
+.marcaregistrada {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.carrusel {
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+}
+
+.formulariodecontacto {
+  text-align: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.form1 {
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.form2 {
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.botonenviar {
+  text-align: center;
+}
+
+.titulo2 {
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+}
+
+.redes {
+  color: #f2aa52;
+}
