@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   .card-title {
-    color: #f2aa52;
+    color: $text-color;
     font-weight: 900;
   }
 
@@ -95,7 +95,7 @@ img {
 
   .textoofertasynovedades {
     text-align: center;
-    color: #f2aa52;
+    color: $text-color;
     display: flex;
     justify-content: center;
   }
@@ -122,7 +122,7 @@ img {
 }
 
 .texto_indu {
-  color: #f2aa52;
+  color: $text-color;
   padding: 2rem;
   font-size: 150%;
   display: flex;
@@ -175,7 +175,7 @@ img {
 
 .textoprincipaldebienvenida {
   text-align: center;
-  color: #f2aa52;
+  color: $text-color;
 }
 
 .container .botonenviar {
