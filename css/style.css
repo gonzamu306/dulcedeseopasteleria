@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -63,6 +64,11 @@ body {
 #section_principal .imagencard {
   display: flex;
   justify-content: center;
+}
+
+.card-body:hover {
+  transform: scale(1.02);
+  transition: all 1s;
 }
 
 img {
@@ -228,6 +234,10 @@ img {
   color: #f2aa52;
   text-align: center;
 }
+.redes .fa-brands:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
 
 header {
   background-color: #f2ece9;
@@ -244,6 +254,9 @@ header .container {
   width: 50%;
   margin: 0 auto;
 }
+header .container {
+  animation: logo-dd-from-right 1.5s ease;
+}
 header .row {
   display: flex;
   flex-direction: row;
@@ -258,6 +271,18 @@ header .nav__item {
   margin-left: 0;
   display: flex;
   align-items: end;
+}
+
+/* Animación nav */
+@keyframes logo-dd-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
